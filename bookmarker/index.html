@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" , initial-scale="1.0">
+    <title>Shrouk BookMarker</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="py-5 text-muted">BookMarker</h1>
+        <div class="border-top border-bottom container">
+            <div class=" text-center bg-light py-5 my-3 mx-auto bookmarker">
+                <h2 class="py-4">Bookmark your favorite sites</h2>
+                <label for="" class="fw-bold">Site Name </label>
+                <input type="text" class="form-control w-75 my-3 mx-auto" name="name" placeholder="Bookmark Name">
+                <div class="alert alert-danger d-none w-75 mx-auto" id="validAlert" role="alert">
+                    A simple danger alert—check it out!
+                  </div>
+                <label for="" class="fw-bold">Site URL</label>
+                <input type="text" class="form-control w-75 my-3 mx-auto" name="url" placeholder="Website URL">
+                <div class="alert alert-danger d-none w-75 mx-auto" id="validUrlAlert" role="alert">
+                    A simple danger alert—check it out!
+                  </div>
+
+                <button type="button" class="btn btn-warning my-3">Submit</button>
+            </div>
+            <div id="resultDiv">
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
